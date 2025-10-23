@@ -1,3 +1,4 @@
+# electricity_bill.py
 
 def calculate_bill(units):
     rate_per_unit = 5
@@ -13,3 +14,6 @@ def calculate_bill(units):
     print(f"Total Bill: ₹{total_bill}")
     print(f"Discount Applied: ₹{discount}")
     print(f"Final Bill: ₹{final_bill}")
+
+# Example usage
+calculate_bill(250)
